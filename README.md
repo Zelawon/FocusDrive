@@ -22,7 +22,7 @@ It then triggers corrective actions like activating warning lights or automatic 
 - Python 3.9 or later
 - The sensors and actuators
 
-##Pin Connections
+### Pin Connections
 | Component           | GPIO Pin (Pin)     | Description   |
 |---------------------|--------------------|---------------|
 | Ultrasonic Trigger  | GPIO17 (Pin 6)     | Output        |
@@ -35,8 +35,9 @@ It then triggers corrective actions like activating warning lights or automatic 
 | ADC                 | SPI Pins           | Data transfer |
 | Accelerometer       | I2C Pins (SDA/SCL) | Data transfer |
 
-## Image Example
-![Raspberry Pi GPIO Connections](images/gpio_connections_diagram.jpg)
+### GPIO Connections
+![Raspberry Pi GPIO Connections](https://github.com/Zelawon/FocusDrive/blob/main/images/gpio_connections_diagram.png?raw=true)
+
 
 ## Installation
 1. **Clone the Repository**
@@ -78,8 +79,14 @@ This system monitors driver behavior and vehicle conditions to detect potential 
 
 The system continuously monitors these conditions every **200 ms** and takes actions as needed until the risk situations are resolved.
 
-## Process Map Image
-![Process Map](images/process_map.jpg)
+### Process Map Image
+![Process Map](https://github.com/Zelawon/FocusDrive/blob/main/images/process_map.png?raw=true)
+
+## Safety Warnings:
+- This system is designed for experimental and educational purposes
+- Do not rely solely on this system for vehicle safety
+- Always follow proper vehicle safety guidelines and regulations
+- Test all features thoroughly in a safe environment before actual use
 
 ## License
 This project is licensed under the GPL-3.0 License. See the `LICENSE` file for details.
