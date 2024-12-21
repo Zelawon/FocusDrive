@@ -42,7 +42,7 @@ It then triggers corrective actions like activating warning lights or automatic 
 ## Installation
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/Zelawon/FocusDrive
+   git clone https://github.com/Zelawon/FocusDrive.git
    cd FocusDrive
    ```
 
