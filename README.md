@@ -88,5 +88,9 @@ The system continuously monitors these conditions every **200 ms** and takes act
 - Always follow proper vehicle safety guidelines and regulations
 - Test all features thoroughly in a safe environment before actual use
 
+## Authors
+-Fedi Khayati
+-Marilena Tsami
+
 ## License
 This project is licensed under the GPL-3.0 License. See the `LICENSE` file for details.
